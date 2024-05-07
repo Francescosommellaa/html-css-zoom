@@ -55,7 +55,7 @@ main {
 .content-container {
     position: relative;
     width: calc((100% / 7) - 1em);
-    height: calc((100vh / 5) - 1em);
+    height: calc((100vh / 6) - 1em);
     background-image: url(../IMG/lucas-canino-RbAFhuLhQ-s-unsplash.jpg);
     background-size: cover;
     margin: 0.5em;
@@ -103,4 +103,16 @@ main {
 
 .item-nav .fa-share-from-square {
     color: #4BC800;
+}
+
+
+.container-nav button{
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ff0000;
+    background-color: #4A4A4A;
+    border: none;
 }
