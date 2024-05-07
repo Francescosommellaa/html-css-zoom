@@ -6,3 +6,35 @@
     font-family: lato, sans-serif;
 }
 
+body{
+    background-color: #000;
+}
+
+
+/* nav */
+#top-container {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.item-nav {
+    background-color: #4A4A4A;
+    padding: 0.5em;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0.5em;
+    font-weight: 600;
+}
+
+
+/* main */
+
+
