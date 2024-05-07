@@ -106,7 +106,7 @@ main {
 }
 
 
-.container-nav button{
+.container-nav button {
     margin: 0;
     width: 10%;
     height: 100%;
@@ -115,4 +115,8 @@ main {
     color: #ff0000;
     background-color: #4A4A4A;
     border: none;
+}
+
+.container-nav button:hover {
+    cursor: pointer;
 }
