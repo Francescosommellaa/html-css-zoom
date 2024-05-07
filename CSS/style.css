@@ -38,6 +38,10 @@ body{
     font-weight: 600;
 }
 
+.item-top:hover {
+    cursor: pointer;
+}
+
 
 /* main */
 main {
@@ -57,7 +61,7 @@ main {
     margin: 0.5em;
 }
 
-.item-content{
+.item-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -77,5 +81,26 @@ main {
 }
 
 .item-nav {
-    
+    margin: 0.5em;
+    font-weight: 600;
+}
+
+.item-nav:hover {
+    cursor: pointer;
+}
+
+.item-nav i {
+    font-size: 24px;
+    display: block;
+}
+
+.container-nav-item {
+    margin: 0 0.5em;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+}
+
+.item-nav .fa-share-from-square {
+    color: #4BC800;
 }
